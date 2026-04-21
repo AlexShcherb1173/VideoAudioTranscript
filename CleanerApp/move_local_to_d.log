@@ -1,0 +1,211 @@
+======================================================== 
+START: 21.04.2026 21:16:20,82 
+SRC_BASE=C:\Users\alex_\AppData\Local 
+DST_BASE=D:\LocalMoved 
+======================================================== 
+ 
+--- Docker --- 
+[INFO] robocopy "C:\Users\alex_\AppData\Local\Docker" "D:\LocalMoved\Docker" /E /MOVE /R:1 /W:1 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 21 апреля 2026 г. 21:16:20
+   Source : C:\Users\alex_\AppData\Local\Docker\
+     Dest : D:\LocalMoved\Docker\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /MOVE /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+	                   1	C:\Users\alex_\AppData\Local\Docker\
+	*EXTRA Dir        -1	D:\LocalMoved\Docker\tasks\
+	  *EXTRA File 		     736	install-log.txt
+	  *EXTRA File 		       3	volume-backup-schedule.json
+	                   0	C:\Users\alex_\AppData\Local\Docker\log\
+	*EXTRA Dir        -1	D:\LocalMoved\Docker\log\vm\
+	                   2	C:\Users\alex_\AppData\Local\Docker\log\host\
+	  *EXTRA File 		 1048501	com.docker.backend.exe.log.0
+	  *EXTRA File 		 1048567	com.docker.backend.exe.log.1
+	  *EXTRA File 		 1048521	com.docker.backend.exe.log.3
+	  *EXTRA File 		 1048549	com.docker.backend.exe.log.5
+	  *EXTRA File 		 1048494	com.docker.backend.exe.log.7
+	  *EXTRA File 		 1048546	com.docker.backend.exe.log.8
+	  *EXTRA File 		     703	com.docker.build.log
+	  *EXTRA File 		 1048446	com.docker.build.log.0
+	  *EXTRA File 		     288	Docker Desktop.exe.log
+	  *EXTRA File 		     655	Docker Desktop.exe.stderr.log
+	  *EXTRA File 		     247	Docker Desktop.exe.stdout.log
+	  *EXTRA File 		    2768	docker-desktop.exe.log
+	  *EXTRA File 		     655	DockerCli.exe.log
+	  *EXTRA File 		  239489	electron-2026-04-13.log
+	  *EXTRA File 		  571236	electron-2026-04-14.log
+	  *EXTRA File 		   60678	electron-2026-04-15.log
+	  *EXTRA File 		  746634	electron-2026-04-16.log
+	  *EXTRA File 		   1.2 m	electron-2026-04-17.log
+	  *EXTRA File 		   1.2 m	electron-2026-04-18.log
+	  *EXTRA File 		   1.2 m	electron-2026-04-19.log
+	  *EXTRA File 		  634747	electron-2026-04-20.log
+	  *EXTRA File 		    6030	electron-2026-04-21.log
+	  *EXTRA File 		     333	electron-audit-log.json
+	  *EXTRA File 		       0	electron-ui-console-2026-04-14.log
+	  *EXTRA File 		       0	electron-ui-console-2026-04-15.log
+	  *EXTRA File 		       0	electron-ui-console-2026-04-16.log
+	  *EXTRA File 		       0	electron-ui-console-2026-04-18.log
+	  *EXTRA File 		       0	electron-ui-console-2026-04-20.log
+	  *EXTRA File 		       0	electron-ui-console-2026-04-21.log
+	  *EXTRA File 		     355	electron-ui-console-audit-log.json
+	  *EXTRA File 		  110015	httpproxy.log
+	  *EXTRA File 		 1048390	httpproxy.log.0
+	  *EXTRA File 		 1048557	httpproxy.log.1
+	  *EXTRA File 		 1048442	httpproxy.log.2
+	  *EXTRA File 		 1048420	httpproxy.log.3
+	  *EXTRA File 		 1048443	httpproxy.log.4
+	  *EXTRA File 		    2396	inference.log
+	  *EXTRA File 		 1048284	monitor.log.0
+	  *EXTRA File 		 1048444	monitor.log.1
+	  *EXTRA File 		 1048504	monitor.log.2
+	  *EXTRA File 		 1048471	monitor.log.3
+	  *EXTRA File 		 1048428	monitor.log.4
+	  *EXTRA File 		 1048485	monitor.log.5
+	  *EXTRA File 		 1048438	monitor.log.6
+	  *EXTRA File 		 1048499	monitor.log.7
+	  *EXTRA File 		 1048447	monitor.log.8
+	    Newer     		  869053	monitor.log100%  
+2026/04/21 21:16:21 ERROR 32 (0x00000020) Deleting Source File C:\Users\alex_\AppData\Local\Docker\log\host\monitor.log
+The process cannot access the file because it is being used by another process.
+
+	                   2	C:\Users\alex_\AppData\Local\Docker\run\
+	    Newer     		       0	dockerInference
+2026/04/21 21:16:21 ERROR 1920 (0x00000780) Copying File C:\Users\alex_\AppData\Local\Docker\run\dockerInference
+The file cannot be accessed by the system.
+Waiting 1 seconds... Retrying...
+	    Newer     		       0	dockerInference
+2026/04/21 21:16:22 ERROR 1920 (0x00000780) Copying File C:\Users\alex_\AppData\Local\Docker\run\dockerInference
+The file cannot be accessed by the system.
+
+ERROR: RETRY LIMIT EXCEEDED.
+
+	    Newer     		       0	userAnalyticsOtlpHttp.sock
+2026/04/21 21:16:22 ERROR 1920 (0x00000780) Copying File C:\Users\alex_\AppData\Local\Docker\run\userAnalyticsOtlpHttp.sock
+The file cannot be accessed by the system.
+Waiting 1 seconds... Retrying...
+	    Newer     		       0	userAnalyticsOtlpHttp.sock
+2026/04/21 21:16:23 ERROR 1920 (0x00000780) Copying File C:\Users\alex_\AppData\Local\Docker\run\userAnalyticsOtlpHttp.sock
+The file cannot be accessed by the system.
+
+ERROR: RETRY LIMIT EXCEEDED.
+
+	                   0	C:\Users\alex_\AppData\Local\Docker\wsl\
+	                   1	C:\Users\alex_\AppData\Local\Docker\wsl\disk\
+	    New File  		  43.4 g	docker_data.vhdx
+2026/04/21 21:16:23 ERROR 112 (0x00000070) Copying File C:\Users\alex_\AppData\Local\Docker\wsl\disk\docker_data.vhdx
+There is not enough space on the disk.
+Waiting 1 seconds... Retrying...
+	    New File  		  43.4 g	docker_data.vhdx
+2026/04/21 21:16:24 ERROR 112 (0x00000070) Copying File C:\Users\alex_\AppData\Local\Docker\wsl\disk\docker_data.vhdx
+There is not enough space on the disk.
+
+ERROR: RETRY LIMIT EXCEEDED.
+
+	                   1	C:\Users\alex_\AppData\Local\Docker\wsl\main\
+	    Newer     		 140.0 m	ext4.vhdx  0.7%  1.4%  2.1%  2.8%  3.5%  4.2%  5.0%  5.7%  6.4%  7.1%  7.8%  8.5%  9.2% 10.0% 10.7% 11.4% 12.1% 12.8% 13.5% 14.2% 15.0% 15.7% 16.4% 17.1% 17.8% 18.5% 19.2% 20.0% 20.7% 21.4% 22.1% 22.8% 23.5% 24.2% 25.0% 25.7% 26.4% 27.1% 27.8% 28.5% 29.2% 30.0% 30.7% 31.4% 32.1% 32.8% 33.5% 34.2% 35.0% 35.7% 36.4% 37.1% 37.8% 38.5% 39.2% 40.0% 40.7% 41.4% 42.1% 42.8% 43.5% 44.2% 45.0% 45.7% 46.4% 47.1% 47.8% 48.5% 49.2% 50.0% 50.7% 51.4% 52.1% 52.8% 53.5% 54.2% 55.0% 55.7% 56.4% 57.1% 57.8% 58.5% 59.2% 60.0% 60.7% 61.4% 62.1% 62.8% 63.5% 64.2% 65.0% 65.7% 66.4% 67.1% 67.8% 68.5% 69.2% 70.0% 70.7% 71.4% 72.1% 72.8% 73.5% 74.2% 75.0% 75.7% 76.4% 77.1% 77.8% 78.5% 79.2% 80.0% 80.7% 81.4% 82.1% 82.8% 83.5% 84.2% 85.0% 85.7% 86.4% 87.1% 87.8% 88.5% 89.2% 90.0% 90.7% 91.4% 92.1% 92.8% 93.5% 94.2% 95.0% 95.7% 96.4% 97.1% 97.8% 98.5% 99.2%100%  
+2026/04/21 21:16:24 ERROR 32 (0x00000020) Deleting Source File C:\Users\alex_\AppData\Local\Docker\wsl\main\ext4.vhdx
+The process cannot access the file because it is being used by another process.
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         7         0         7         0         0         2
+   Files :         7         2         2         0         3        48
+   Bytes :  43.575 g  140.82 m  1023.9 k         0  43.436 g   27.01 m
+   Times :   0:00:03   0:00:00                       0:00:03   0:00:00
+
+
+   Speed :           884 249 658 Bytes/sec.
+   Speed :             50597,172 MegaBytes/min.
+   Ended : 21 апреля 2026 г. 21:16:24
+
+
+2026/04/21 21:16:24 ERROR 32 (0x00000020) Deleting Source Directory C:\Users\alex_\AppData\Local\Docker\
+The process cannot access the file because it is being used by another process.
+[ERR ] После переноса папка не пуста: C:\Users\alex_\AppData\Local\Docker 
+ 
+--- JetBrains --- 
+[INFO] robocopy "C:\Users\alex_\AppData\Local\JetBrains" "D:\LocalMoved\JetBrains" /E /MOVE /R:1 /W:1 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 21 апреля 2026 г. 21:16:24
+   Source : C:\Users\alex_\AppData\Local\JetBrains\
+     Dest : D:\LocalMoved\JetBrains\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /MOVE /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\alex_\AppData\Local\JetBrains\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\acp-agents\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\CLion2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\CLion2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\DataGrip2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\DataGrip2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\DataSpell2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\dotMemory\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\dotPeek\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\GoLand2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\GoLand2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\IdeaIC2025.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\IdeaIC2025.2\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\Installations\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\IntelliJIdea2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\IntelliJIdea2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\PhpStorm2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\PhpStorm2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\PyCharm2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\PyCharm2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\PyCharmCE2025.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\PyCharmCE2025.2\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\Rider2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\RubyMine2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\RubyMine2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\RustRover2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\RustRover2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\Shared\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\Transient\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\WebStorm2025.2\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\WebStorm2025.3\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\WebStorm2026.1\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\~\
+	                   0	C:\Users\alex_\AppData\Local\JetBrains\Daemon\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\Daemon\data\
+	                   0	C:\Users\alex_\AppData\Local\JetBrains\Daemon\bundles\
+	                   0	C:\Users\alex_\AppData\Local\JetBrains\Daemon\bundles\current\
+	                   0	C:\Users\alex_\AppData\Local\JetBrains\Daemon\bundles\current\jetbrainsd\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\Daemon\bundles\current\jetbrainsd\licenses\
+	                   4	C:\Users\alex_\AppData\Local\JetBrains\Daemon\bundles\current\jetbrainsd\bin\
+	                   2	C:\Users\alex_\AppData\Local\JetBrains\Daemon\logs\
+	*EXTRA Dir        -1	D:\LocalMoved\JetBrains\Daemon\logs\ssh_outputs\
+	  *EXTRA File 		    2651	daemon-29440.log
+	  *EXTRA File 		   70593	daemon.log
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         7         0         7         0         0        35
+   Files :         6         0         6         0         0         2
+   Bytes :   66.11 m         0   66.11 m         0         0    71.5 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : 21 апреля 2026 г. 21:16:24
+
+[ERR ] После переноса папка не пуста: C:\Users\alex_\AppData\Local\JetBrains 
+ 
+FINISH: 21.04.2026 21:16:24,27 

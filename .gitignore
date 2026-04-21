@@ -1,0 +1,14 @@
+*.mp4
+*.mov
+*.mkv
+data/mp4/
+*.mp3
+data/mp3/
+/TranscribeUtils/data/
+/TranscribeUtils/logs/
+.venv1/
+.venv/
+.idea/
+__pycache__/
+*.pyc
+data/
