@@ -1,4 +1,4 @@
-"""transcribe_1.py — интерактивная транскрибация MP3 через OpenAI Whisper.
+"""transcribe_old.py — интерактивная транскрибация MP3 через OpenAI Whisper.
 
 Функционал:
 - умеет брать имя MP3 из аргумента командной строки;
@@ -12,9 +12,9 @@
 - сохраняет результат в папку data/txt.
 
 Примеры запуска:
-- python transcribe_1.py curswork8.mp3
-- python transcribe_1.py curswork8.mp3 small
-- python transcribe_1.py
+- python transcribe_old.py curswork8.mp3
+- python transcribe_old.py curswork8.mp3 small
+- python transcribe_old.py
 
 Требования:
 - Python 3.9+
@@ -23,8 +23,8 @@
 - путь к ffmpeg может быть добавлен через FFMPEG_DIR
 """
 
-# умеет брать имя MP3 из аргумента (python transcribe_1.py curswork8.mp3);
-# умеет брать имя модели из аргумента (python transcribe_1.py curswork8.mp3 small);
+# умеет брать имя MP3 из аргумента (python transcribe_old.py curswork8.mp3);
+# умеет брать имя модели из аргумента (python transcribe_old.py curswork8.mp3 small);
 # если модель не указана — даёт интерактивный выбор tiny/base/small/medium/large;
 # если аргумент не задан — работает по-старому: спрашивает имя файла через animated_input.
 
@@ -234,7 +234,7 @@ def main() -> None:
     """
 
     # ---------- Аргументы командной строки ----------
-    # python transcribe_1.py curswork8.mp3 small
+    # python transcribe_old.py curswork8.mp3 small
 
     # ------------------------------------------------------------------
     # Берём все аргументы после имени скрипта
@@ -355,20 +355,20 @@ if __name__ == "__main__":
 
 # 📌 Как это теперь запускать
 # 1. Самый короткий вариант (имя только из аргумента, модель — через выбор)
-# (.venv) D:\PythonProjectExt\VideoAudioTranscript> python transcribe_1.py curswork8.mp3
+# (.venv) D:\PythonProjectExt\VideoAudioTranscript> python transcribe_old.py curswork8.mp3
 #  Скрипт возьмёт файл:
 # либо curswork8.mp3 из текущей папки,
 # либо data/mp3/curswork8.mp3, если первый вариант не найден.
 # Затем покажет меню выбора модели (tiny/base/small/medium/large).
 #
 # 2. Полностью без вопросов: имя файла + модель из аргументов
-# (.venv) D:\PythonProjectExt\VideoAudioTranscript> python transcribe_1.py curswork8.mp3 small
+# (.venv) D:\PythonProjectExt\VideoAudioTranscript> python transcribe_old.py curswork8.mp3 small
 # Файл: curswork8.mp3 или data/mp3/curswork8.mp3;
 # Модель: small;
 # Ничего дополнительно не спрашивает, кроме имени TXT-файла (через красивый animated_input).
 #
 # 3. Старый режим — всё из интерактива
-# (.venv) D:\PythonProjectExt\VideoAudioTranscript> python transcribe_1.py
+# (.venv) D:\PythonProjectExt\VideoAudioTranscript> python transcribe_old.py
 # Сначала спросит имя MP3 (animated_input);
 # затем предложит выбрать модель в меню;
 # потом спросит имя TXT для сохранения результата.
